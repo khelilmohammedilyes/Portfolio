@@ -1,7 +1,7 @@
-import './bootstrap';
+require('./bootstrap');
 
-import Alpine, { Alpine } from 'alpinejs';
+import Alpine from 'alpinejs';
 
-window.Alpine= Alpine;
+window.Alpine = Alpine;
 
 Alpine.start();

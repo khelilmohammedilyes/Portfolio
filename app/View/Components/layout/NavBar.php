@@ -8,12 +8,17 @@ use Illuminate\View\Component;
 
 class NavBar extends Component
 {
+    public array $navigationItems = [];
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+        $this->navigationItems = [
+            ['label' => 'About', 'href' => '#about'],
+            ['label' => 'Projects', 'href' => '#portfolio'],
+            ['label' => 'Contact', 'href' => '#contact'],
+        ];
     }
 
     /**

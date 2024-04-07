@@ -14,13 +14,13 @@
             </div>
             <div class="flex px-4 justify-end items-center w-full">
                 <div>
-                    <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
-                        x-bind:class="navbarOpen && 'navbarTogglerActive'"></x-layout.navbar-hamburger>
+                    <x-layout.nav-bar-humburger @click="navbarOpen = !navbarOpen"
+                        x-bind:class="navbarOpen && 'navbarTogglerActive'"></x-layout.nav-bar-humburger>
                     <nav :class="!navbarOpen && 'hidden'" id="navbarCollapse"
                         class="absolute right-0 top-full bg-white py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-slate-900 dark:text-gray-300 lg:px-0 lg:max-w-full lg:w-full lg:right-4 lg:block lg:static lg:shadow-none">
                         <ul class="block lg:flex lg:items-center">
                             @foreach ($navigationItems as $item)
-                                <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
+                                <x-layout.nav-bar-items :href="$item['href']">{{ $item['label'] }}</x-layout.nav-bar-items>
                             @endforeach
 
                             <div class="ml-0 lg:ml-10 xl:ml-16 relative top-1">

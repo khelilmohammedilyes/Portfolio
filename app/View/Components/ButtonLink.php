@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\layout;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class NavBarItems extends Component
+class ButtonLink extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct(public string $href)
+    public function __construct(public string $href, public string $variant = 'primary', public string $target = '_self')
     {
         //
     }
@@ -21,6 +21,6 @@ class NavBarItems extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('layout.nav-bar-items');
+        return view('components.button-link');
     }
 }

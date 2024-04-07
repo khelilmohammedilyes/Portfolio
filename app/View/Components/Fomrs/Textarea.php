@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\layout;
+namespace App\View\Components\Fomrs;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class NavBarItems extends Component
+class Textarea extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct(public string $href)
+    public function __construct()
     {
         //
     }
@@ -21,6 +21,6 @@ class NavBarItems extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('layout.nav-bar-items');
+        return view('components.fomrs.textarea');
     }
 }
