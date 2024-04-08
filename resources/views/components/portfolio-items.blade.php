@@ -14,7 +14,7 @@
       </div>
     </a>
     <div
-      class="text-center bg-white dark:bg-slate-800 relative z-10 py-9 px-3 rounded-lg shadow-lg mx-7 -mt-4 h-[260px]">
+      class="text-center bg-white dark:bg-slate-800 relative z-10 py-5 px-3 rounded-lg shadow-lg mx-7 -mt-4 h-[260px]">
       <span class="text-sm text-primary font-semibold block mb-2">
         {{ implode(", ", $categories) }}
       </span>

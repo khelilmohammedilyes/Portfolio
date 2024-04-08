@@ -1135,6 +1135,10 @@ body{
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .pb-12{
   padding-bottom: 3rem;
 }

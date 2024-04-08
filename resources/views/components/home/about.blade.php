@@ -24,27 +24,21 @@
                 <div class="mt-10 lg:mt-0">
                     <span class="font-semibold text-lg text-primary mb-2 block">
                         <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500">
-                            "Everything is achievable with hard work"
+                            "TO Be Or Not To Be"
                         </blockquote>
                     </span>
                     <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
                         About Me
                     </h2>
                     <p class="text-base dark:text-gray-400 mb-8">
-                        I have been working as a professional software developer for 10+ years. <br />
-                        During my career I have worked on various types of projects with various technologies,
-                        but very often I feel that I am a junior developer who just started coding. <br />
+                      I am a highly motivated computer science graduate specializing in software engineering. My primary expertise lies in web application development, with strong proficiency in the Laravel framework. I have a proven track record of successfully completing several web development projects using Laravel, showcasing my ability to create robust and scalable solutions. <br />
                     </p>
                     <p class="text-base dark:text-gray-400 mb-8">
-                        In 2018 I decided to create a YouTube channel and share my knowledge. My channel is mostly
-                        focused on
-                        <span class="text-amber-500 font-bold">PHP</span> and <span
-                            class="text-amber-500 font-bold">JavaScript</span>. <br />
-                        My content is mostly focused on practical examples and projects. <br />
+                      Complementing my proficient software engineering skills, I possess a fervent interest in transitioning towards a vocation in cybersecurity. My dedication is evidenced through the acquisition of certifications such as CCNA from Cisco, Preparing for Your Career in Cybersecurity from LinkedIn Learning and Microsoft. These certifications reflect my dedication to expanding my knowledge of cybersecurity and network security, all with the aim of fortifying the development of secure and resilient systems.
+                      <br /></p>
+                      <p class="text-base dark:text-gray-400 mb-8">
+                      I am dedicated to staying current with the latest industry trends and technologies, continuously expanding my skill set to deliver innovative and efficient solutions. <br />
                     </p>
-                    <x-button-link href="https://youtube.com/thecodeholic" variant="red" target="_blank">
-                        View my channel
-                    </x-button-link>
                 </div>
             </div>
         </div>

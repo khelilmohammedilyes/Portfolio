@@ -22,40 +22,34 @@ class portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Tailwind.css', 'Vue3'],
-                'title' => 'Full Stack app with Laravel, Tailwindcss and Vue 3',
+                'category' => ['Laravel'],
+                'title' => 'Web environment to post and find Laravel projects (gigs).',
                 'image' => url('/img/survey.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-vue-survey'
+                'github' => 'https://github.com/khelilmohammedilyes/laraGigs'
             ],
             [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'E-commerce website with Yii2',
+                'category' => ['Laravel'],
+                'title' => 'Instagram clone',
                 'image' => url('/img/yii2-ecommerce.jpg'),
-                'github' => 'https://github.com/thecodeholic/yii2-ecommerce-website'
+                'github' => 'https://github.com/khelilmohammedilyes/laraGram'
             ],
             [
-                'category' => ['PHP', 'Laravel'],
-                'title' => 'REST API with Laravel 8 and Sanctum',
+                'category' => ['JavaScript'],
+                'title' => 'Chrome Extension that can be used to save the current tab or a customer input.',
                 'image' => url('/img/laravel-rest-api.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-image-manipulation-rest-api'
+                'github' => 'https://github.com/khelilmohammedilyes/ChromeExtension'
             ],
             [
-                'category' => ['PHP'],
-                'title' => 'PHP MVC Framework',
+                'category' => ['JavaScript'],
+                'title' => 'Simple representation of blackjack game',
                 'image' => url('/img/php-mvc-framework.png'),
-                'github' => 'https://github.com/thecodeholic/php-mvc-framework'
+                'github' => 'https://github.com/khelilmohammedilyes/BlackJack-Game'
             ],
             [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'YouTube clone with Yii2',
+                'category' => ['CSS'],
+                'title' => 'Simple app that can be used to count a stations passengers.',
                 'image' => url('/img/yii2-youtube-clone.png'),
-                'github' => 'https://github.com/thecodeholic/Yii2-Youtube-Clone'
-            ],
-            [
-                'category' => ['Yii2', 'VueJs'],
-                'title' => 'Yii2 + VueJs Notes application',
-                'image' => url('/img/yii2-vue-notes.png'),
-                'github' =>  'https://github.com/thecodeholic/vue.js-yii2-notes'
+                'github' => 'https://github.com/khelilmohammedilyes/Passenger-Counter-App'
             ],
         ];
 

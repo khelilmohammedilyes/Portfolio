@@ -7,15 +7,13 @@
           <h1
             class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6"
           >
-            My Name is Zura. <br/>
-            I am <span class="rounded-md text-amber-600">TheCodeholic</span>.
+            My Name is Ilyes. <br/>
+            I am <span class="rounded-md text-amber-600">Software_Engineer</span>.
           </h1>
           <p class="text-base mb-8 max-w-[520px]">
-            I am a developer with 10+ years of experience. <br/>
-            I love sharing my knowledge to others, that's why I created a
-            <a
-              class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
-              href="https://youtube.com/TheCodeholic" target="_blank">YouTube Channel</a>. <br>
+            Motivated computer science graduate specializing in software engineering, with expertise in web
+            application development using the Laravel framework. Alongside my proficient software engineering skills, I
+            am keen to transition towards cybersecurity to contribute to the development of secure systems. <br>
           </p>
           <ul class="flex flex-wrap items-center">
             <li>

@@ -17,9 +17,6 @@
           <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
             My Recent Projects
           </h2>
-          <p class="text-base text-body-color">
-            You learn most by building projects. Go ahead and build something right now.
-          </p>
         </div>
       </div>
     </div>
